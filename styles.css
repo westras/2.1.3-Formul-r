@@ -164,3 +164,71 @@ footer {
         shape-outside: none;
     }
 }
+
+.login-container {
+      background: white;
+      padding: 2rem 3rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 20rem;
+    }
+
+    .login-container h2 {
+      margin-bottom: 1.5rem;
+      color: #333;
+      text-align: center;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+      color: #555;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 0.6rem 1rem;
+      margin-bottom: 1.2rem;
+      border: 1.5px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+      transition: border-color 0.3s ease;
+    }
+
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      user-select: none;
+    }
+
+    .checkbox-container input[type="checkbox"] {
+      margin-right: 0.6rem;
+      width: 18px;
+      height: 18px;
+      cursor: pointer;
+    }
+
+    button {
+      width: 100%;
+      padding: 0.8rem;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border-radius: 6px;
+      box-shadow:0px 0px 1px black;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .notvisable {
+      display: none;
+    }
