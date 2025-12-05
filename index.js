@@ -15,19 +15,14 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.style.overflow = '';
     }
 
-    // toggle on button click
+    
     loginBtn.addEventListener('click', (e) => {
         e.stopPropagation();
         if (overlay.classList.contains('visible')) closeLogin();
         else openLogin();
     });
 
-    // close when clicking outside the login box
-    overlay.addEventListener('click', (e) => {
-        if (e.target === overlay) closeLogin();
-    });
-
-    // close on Escape
+    
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape' && overlay.classList.contains('visible')) closeLogin();
     });
